@@ -1,0 +1,15 @@
+[
+  {
+    "description": "带header的请求",
+    "request": {
+      "uri": "/getWithHeader",
+      "method": "get",
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    },
+    "response": {
+      "text": "this is a response with header"
+    }
+  }
+]

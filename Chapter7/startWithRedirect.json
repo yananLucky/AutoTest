@@ -1,0 +1,9 @@
+[
+  {
+    "description": "redirect to baidu",
+    "request": {
+      "uri": "/redirect"
+    },
+    "redirectTo": "http://www.baidu.com"
+  }
+]

@@ -5,9 +5,25 @@
       "uri": "/postdemo",
       "method": "post"
 
+
     },
     "response": {
       "text": "this is my first mock post request"
+    }
+  },
+  {
+    "description": "模拟一个带参数的post请求",
+    "request": {
+      "uri": "/postwithparam",
+      "method": "post",
+      "forms": {
+        "name": "zhangsan",
+        "age": "10"
+      }
+
+    },
+    "response": {
+      "text": "huhansan com back"
     }
   }
 ]
