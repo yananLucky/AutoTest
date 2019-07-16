@@ -10,4 +10,10 @@ server:
       name: myTest
     datasource:
       driver-class-name: com.mysql.jdbc.Driver
-      url: jdbc:mysql://192.168.1.7:3306/
+      url: jdbc:mysql://192.168.7.64:3306/course
+      username: root
+      password: root
+mybatis:
+  type-aliases-package: com.course.model
+  mapper-locations:
+    - mapper/*
