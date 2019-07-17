@@ -1,0 +1,176 @@
+[INFO ] 2019-07-17 16:15:35 [main] com.course.Application - Starting Application on AM-201509231532 with PID 12096 (E:\workspace\AutoTest\Chapter11\target\classes started by Administrator in E:\workspace\AutoTest)
+[INFO ] 2019-07-17 16:15:35 [main] com.course.Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-17 16:15:35 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[INFO ] 2019-07-17 16:15:35 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-07-17 16:15:35 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+[INFO ] 2019-07-17 16:15:35 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-07-17 16:15:35 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1946 ms
+[INFO ] 2019-07-17 16:15:35 [main] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2019-07-17 16:21:20 [main] com.course.Application - Starting Application on AM-201509231532 with PID 5980 (E:\workspace\AutoTest\Chapter11\target\classes started by Administrator in E:\workspace\AutoTest)
+[INFO ] 2019-07-17 16:21:20 [main] com.course.Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-17 16:21:20 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[INFO ] 2019-07-17 16:21:20 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-07-17 16:21:20 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+[INFO ] 2019-07-17 16:21:20 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-07-17 16:21:20 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1913 ms
+[INFO ] 2019-07-17 16:21:20 [main] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2019-07-17 16:28:18 [main] com.course.Application - Starting Application on AM-201509231532 with PID 9148 (E:\workspace\AutoTest\Chapter11\target\classes started by Administrator in E:\workspace\AutoTest)
+[INFO ] 2019-07-17 16:28:18 [main] com.course.Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-17 16:28:18 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[INFO ] 2019-07-17 16:28:18 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-07-17 16:28:18 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+[INFO ] 2019-07-17 16:28:18 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-07-17 16:28:18 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2308 ms
+[INFO ] 2019-07-17 16:28:18 [main] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2019-07-17 16:48:30 [main] com.course.Application - Starting Application on AM-201509231532 with PID 10316 (E:\workspace\AutoTest\Chapter11\target\classes started by Administrator in E:\workspace\AutoTest)
+[INFO ] 2019-07-17 16:48:30 [main] com.course.Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-17 16:48:30 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[INFO ] 2019-07-17 16:48:30 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-07-17 16:48:30 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+[INFO ] 2019-07-17 16:48:30 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-07-17 16:48:30 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1869 ms
+[INFO ] 2019-07-17 16:48:30 [main] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2019-07-17 16:51:44 [main] com.course.Application - Starting Application on AM-201509231532 with PID 11924 (E:\workspace\AutoTest\Chapter11\target\classes started by Administrator in E:\workspace\AutoTest)
+[INFO ] 2019-07-17 16:51:44 [main] com.course.Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-17 16:51:44 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[INFO ] 2019-07-17 16:51:44 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-07-17 16:51:44 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+[INFO ] 2019-07-17 16:51:44 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-07-17 16:51:44 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2039 ms
+[INFO ] 2019-07-17 16:51:44 [main] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2019-07-17 16:52:30 [main] com.course.Application - Starting Application on AM-201509231532 with PID 5852 (E:\workspace\AutoTest\Chapter11\target\classes started by Administrator in E:\workspace\AutoTest)
+[INFO ] 2019-07-17 16:52:30 [main] com.course.Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-17 16:52:30 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[INFO ] 2019-07-17 16:52:30 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-07-17 16:52:30 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+[INFO ] 2019-07-17 16:52:30 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-07-17 16:52:30 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2076 ms
+[INFO ] 2019-07-17 16:52:30 [main] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2019-07-17 17:03:53 [main] com.course.Application - Starting Application on AM-201509231532 with PID 2120 (E:\workspace\AutoTest\Chapter11\target\classes started by Administrator in E:\workspace\AutoTest)
+[INFO ] 2019-07-17 17:03:53 [main] com.course.Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-17 17:03:53 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[INFO ] 2019-07-17 17:03:53 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-07-17 17:03:53 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+[INFO ] 2019-07-17 17:03:53 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-07-17 17:03:53 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2062 ms
+[INFO ] 2019-07-17 17:03:53 [main] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2019-07-17 17:16:06 [main] com.course.Application - Starting Application on AM-201509231532 with PID 10900 (E:\workspace\AutoTest\Chapter11\target\classes started by Administrator in E:\workspace\AutoTest)
+[INFO ] 2019-07-17 17:16:06 [main] com.course.Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-17 17:16:06 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[INFO ] 2019-07-17 17:16:06 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-07-17 17:16:06 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+[INFO ] 2019-07-17 17:16:06 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-07-17 17:16:06 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2301 ms
+[INFO ] 2019-07-17 17:16:06 [main] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2019-07-17 17:25:44 [main] com.course.Application - Starting Application on AM-201509231532 with PID 6012 (E:\workspace\AutoTest\Chapter11\target\classes started by Administrator in E:\workspace\AutoTest)
+[INFO ] 2019-07-17 17:25:44 [main] com.course.Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-17 17:25:44 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[INFO ] 2019-07-17 17:25:44 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-07-17 17:25:44 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+[INFO ] 2019-07-17 17:25:44 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-07-17 17:25:44 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1744 ms
+[INFO ] 2019-07-17 17:25:44 [main] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2019-07-17 17:28:48 [main] com.course.Application - Starting Application on AM-201509231532 with PID 4860 (E:\workspace\AutoTest\Chapter11\target\classes started by Administrator in E:\workspace\AutoTest)
+[INFO ] 2019-07-17 17:28:48 [main] com.course.Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-17 17:28:48 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[INFO ] 2019-07-17 17:28:48 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-07-17 17:28:48 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+[INFO ] 2019-07-17 17:28:48 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-07-17 17:28:48 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2123 ms
+[INFO ] 2019-07-17 17:28:48 [main] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2019-07-17 17:30:09 [main] com.course.Application - Starting Application on AM-201509231532 with PID 5324 (E:\workspace\AutoTest\Chapter11\target\classes started by Administrator in E:\workspace\AutoTest)
+[INFO ] 2019-07-17 17:30:09 [main] com.course.Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-17 17:30:09 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[INFO ] 2019-07-17 17:30:09 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-07-17 17:30:09 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+[INFO ] 2019-07-17 17:30:09 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-07-17 17:30:09 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2373 ms
+[INFO ] 2019-07-17 17:30:09 [main] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2019-07-17 17:31:05 [main] com.course.Application - Starting Application on AM-201509231532 with PID 5340 (E:\workspace\AutoTest\Chapter11\target\classes started by Administrator in E:\workspace\AutoTest)
+[INFO ] 2019-07-17 17:31:05 [main] com.course.Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-17 17:31:05 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[INFO ] 2019-07-17 17:31:05 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-07-17 17:31:05 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+[INFO ] 2019-07-17 17:31:05 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-07-17 17:31:05 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1904 ms
+[INFO ] 2019-07-17 17:31:05 [main] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2019-07-17 17:31:57 [main] com.course.Application - Starting Application on AM-201509231532 with PID 6940 (E:\workspace\AutoTest\Chapter11\target\classes started by Administrator in E:\workspace\AutoTest)
+[INFO ] 2019-07-17 17:31:57 [main] com.course.Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-17 17:31:57 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[INFO ] 2019-07-17 17:31:57 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-07-17 17:31:57 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+[INFO ] 2019-07-17 17:31:57 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-07-17 17:31:57 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2112 ms
+[INFO ] 2019-07-17 17:31:57 [main] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2019-07-17 17:32:41 [main] com.course.Application - Starting Application on AM-201509231532 with PID 8876 (E:\workspace\AutoTest\Chapter11\target\classes started by Administrator in E:\workspace\AutoTest)
+[INFO ] 2019-07-17 17:32:41 [main] com.course.Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-17 17:32:41 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[INFO ] 2019-07-17 17:32:41 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-07-17 17:32:41 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+[INFO ] 2019-07-17 17:32:41 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-07-17 17:32:41 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1941 ms
+[INFO ] 2019-07-17 17:32:41 [main] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2019-07-17 17:38:31 [main] com.course.Application - Starting Application on AM-201509231532 with PID 9736 (E:\workspace\AutoTest\Chapter11\target\classes started by Administrator in E:\workspace\AutoTest)
+[INFO ] 2019-07-17 17:38:31 [main] com.course.Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-17 17:38:31 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[INFO ] 2019-07-17 17:38:31 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-07-17 17:38:31 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+[INFO ] 2019-07-17 17:38:31 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-07-17 17:38:31 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1940 ms
+[INFO ] 2019-07-17 17:38:31 [main] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2019-07-17 17:41:47 [main] com.course.Application - Starting Application on AM-201509231532 with PID 4432 (E:\workspace\AutoTest\Chapter11\target\classes started by Administrator in E:\workspace\AutoTest)
+[INFO ] 2019-07-17 17:41:47 [main] com.course.Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-17 17:41:47 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[INFO ] 2019-07-17 17:41:47 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-07-17 17:41:47 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+[INFO ] 2019-07-17 17:41:47 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-07-17 17:41:47 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2187 ms
+[INFO ] 2019-07-17 17:41:47 [main] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2019-07-17 17:44:16 [main] com.course.Application - Starting Application on AM-201509231532 with PID 4572 (E:\workspace\AutoTest\Chapter11\target\classes started by Administrator in E:\workspace\AutoTest)
+[INFO ] 2019-07-17 17:44:16 [main] com.course.Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-17 17:44:16 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[INFO ] 2019-07-17 17:44:16 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-07-17 17:44:16 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+[INFO ] 2019-07-17 17:44:16 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-07-17 17:44:16 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1990 ms
+[INFO ] 2019-07-17 17:44:16 [main] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2019-07-17 17:44:55 [main] com.course.Application - Starting Application on AM-201509231532 with PID 5444 (E:\workspace\AutoTest\Chapter11\target\classes started by Administrator in E:\workspace\AutoTest)
+[INFO ] 2019-07-17 17:44:55 [main] com.course.Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-17 17:44:55 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[INFO ] 2019-07-17 17:44:55 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-07-17 17:44:55 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+[INFO ] 2019-07-17 17:44:55 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-07-17 17:44:55 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1858 ms
+[INFO ] 2019-07-17 17:44:55 [main] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2019-07-17 17:45:31 [main] com.course.Application - Starting Application on AM-201509231532 with PID 5392 (E:\workspace\AutoTest\Chapter11\target\classes started by Administrator in E:\workspace\AutoTest)
+[INFO ] 2019-07-17 17:45:31 [main] com.course.Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-17 17:45:31 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[INFO ] 2019-07-17 17:45:31 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-07-17 17:45:31 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+[INFO ] 2019-07-17 17:45:31 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-07-17 17:45:31 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2061 ms
+[INFO ] 2019-07-17 17:45:31 [main] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2019-07-17 17:48:36 [main] com.course.Application - Starting Application on AM-201509231532 with PID 4064 (E:\workspace\AutoTest\Chapter11\target\classes started by Administrator in E:\workspace\AutoTest)
+[INFO ] 2019-07-17 17:48:36 [main] com.course.Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-17 17:48:36 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[INFO ] 2019-07-17 17:48:36 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-07-17 17:48:36 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+[INFO ] 2019-07-17 17:48:36 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-07-17 17:48:36 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2243 ms
+[INFO ] 2019-07-17 17:48:36 [main] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2019-07-17 17:52:40 [main] com.course.Application - Starting Application on AM-201509231532 with PID 5320 (E:\workspace\AutoTest\Chapter11\target\classes started by Administrator in E:\workspace\AutoTest)
+[INFO ] 2019-07-17 17:52:40 [main] com.course.Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-17 17:52:40 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[INFO ] 2019-07-17 17:52:40 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-07-17 17:52:40 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+[INFO ] 2019-07-17 17:52:40 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-07-17 17:52:40 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2163 ms
+[INFO ] 2019-07-17 17:52:40 [main] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2019-07-17 18:02:22 [main] com.course.Application - Starting Application on AM-201509231532 with PID 6104 (E:\workspace\AutoTest\Chapter11\target\classes started by Administrator in E:\workspace\AutoTest)
+[INFO ] 2019-07-17 18:02:22 [main] com.course.Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-17 18:02:22 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[INFO ] 2019-07-17 18:02:22 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-07-17 18:02:22 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+[INFO ] 2019-07-17 18:02:22 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-07-17 18:02:22 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2129 ms
+[INFO ] 2019-07-17 18:02:22 [main] o.a.catalina.core.StandardService - Stopping service [Tomcat]
