@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20f30e1d-fed2-47d7-8345-0c40f07455cc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter11/src/main/java/com/course/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11/src/main/java/com/course/controller/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_41.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_16.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter11/Chapter11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter11/Chapter11.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter11/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter11/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter11/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter11/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter11/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter11/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter11/src/main/resources/mapper/mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter11/src/main/resources/mapper/mysql.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter11/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter11/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Chapter5/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,11 +42,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter11/src/main/resources/mybatis-config.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
               <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="509">
+              <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -128,15 +128,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter10/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="23" selection-start-column="23" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -157,7 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/groups/GroupsOnMethod.java" />
         <option value="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/groups/GroupsOnClass1.java" />
         <option value="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/groups/GroupsOnClass2.java" />
         <option value="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/groups/GroupsOnClass3.java" />
@@ -208,6 +198,7 @@
         <option value="$PROJECT_DIR$/Chapter11/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/Chapter11/src/main/java/com/course/Application.java" />
         <option value="$PROJECT_DIR$/Chapter11/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/test.txt" />
       </list>
     </option>
   </component>
@@ -274,6 +265,13 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter11" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -487,19 +485,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/groups/GroupsOnClass3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-          <folding>
-            <element signature="e#107#108#0" expanded="true" />
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter5/src/main/resources/groupsOnClass.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -888,6 +873,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
         </state>
       </provider>
     </entry>

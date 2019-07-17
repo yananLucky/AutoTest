@@ -1,6 +1,39 @@
-aaaaa
-werwerwe
-add master
-mergedemo
-version1
-version2
+/*
+Navicat MySQL Data Transfer
+
+Source Server         : LocalDatabases
+Source Server Version : 50018
+Source Host           : 192.168.132.32:3306
+Source Database       : course
+
+Target Server Type    : MYSQL
+Target Server Version : 50018
+File Encoding         : 65001
+
+Date: 2019-07-17 19:06:10
+*/
+
+SET FOREIGN_KEY_CHECKS=0;
+
+-- ----------------------------
+-- Table structure for user
+-- ----------------------------
+DROP TABLE IF EXISTS `user`;
+CREATE TABLE `user` (
+  `id` int(11) NOT NULL auto_increment,
+  `name` varchar(33) default NULL,
+  `age` int(11) default NULL,
+  `sex` varchar(33) default NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of user
+-- ----------------------------
+INSERT INTO `user` VALUES ('1', 'zhangsan', '10', '男');
+INSERT INTO `user` VALUES ('2', 'aa', '1', '男');
+INSERT INTO `user` VALUES ('3', 'aa', '1', '女');
+INSERT INTO `user` VALUES ('4', 'aa', '1', '女');
+INSERT INTO `user` VALUES ('5', 'aa', '1', '女');
+INSERT INTO `user` VALUES ('6', 'ss', '2', '男');
+INSERT INTO `user` VALUES ('7', '莉莉', '3', '女');
