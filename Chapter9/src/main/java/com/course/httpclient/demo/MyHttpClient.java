@@ -1,4 +1,4 @@
-package com.course.httpclient.demo;
+package com.course6666.httpclient.demo;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
@@ -8,7 +8,6 @@ import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.util.EntityUtils;
 import org.testng.annotations.Test;
 
-import javax.swing.text.html.parser.Entity;
 import java.io.IOException;
 
 public class MyHttpClient {

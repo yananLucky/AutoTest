@@ -1,4 +1,4 @@
-package com.course.testng.MultiThread;
+package com.course6666.testng.MultiThread;
 
 import org.testng.annotations.Test;
 

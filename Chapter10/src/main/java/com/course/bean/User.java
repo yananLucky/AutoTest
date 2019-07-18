@@ -1,4 +1,4 @@
-package com.course.bean;
+package com.course6666.bean;
 
 import lombok.Data;
 

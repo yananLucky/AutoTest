@@ -1,4 +1,4 @@
-package com.course.config;
+package com.course6666.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,4 +1,4 @@
-package com.course.testng.suite;
+package com.course6666.testng.suite;
 
 import org.testng.annotations.Test;
 
