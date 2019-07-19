@@ -2,7 +2,7 @@
 [WARN ] 2019-07-17 16:15:35 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
 [WARN ] 2019-07-17 16:15:35 [main] o.s.c.a.CommonAnnotationBeanPostProcessor - Destroy method on bean with name 'application' threw an exception
 java.lang.NullPointerException: null
-	at com.course.Application.close(Application.java:19)
+	at com.course.Application.close(com.course.Application.java:19)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -24,12 +24,12 @@ java.lang.NullPointerException: null
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
-	at com.course.Application.main(Application.java:15)
+	at com.course.Application.main(com.course.Application.java:15)
 [WARN ] 2019-07-17 16:21:20 [main] o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
 [WARN ] 2019-07-17 16:21:20 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
 [WARN ] 2019-07-17 16:21:20 [main] o.s.c.a.CommonAnnotationBeanPostProcessor - Destroy method on bean with name 'application' threw an exception
 java.lang.NullPointerException: null
-	at com.course.Application.close(Application.java:19)
+	at com.course.Application.close(com.course.Application.java:19)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -51,12 +51,12 @@ java.lang.NullPointerException: null
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
-	at com.course.Application.main(Application.java:15)
+	at com.course.Application.main(com.course.Application.java:15)
 [WARN ] 2019-07-17 16:28:18 [main] o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
 [WARN ] 2019-07-17 16:28:18 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
 [WARN ] 2019-07-17 16:28:18 [main] o.s.c.a.CommonAnnotationBeanPostProcessor - Destroy method on bean with name 'application' threw an exception
 java.lang.NullPointerException: null
-	at com.course.Application.close(Application.java:19)
+	at com.course.Application.close(com.course.Application.java:19)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -78,12 +78,12 @@ java.lang.NullPointerException: null
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
-	at com.course.Application.main(Application.java:15)
+	at com.course.Application.main(com.course.Application.java:15)
 [WARN ] 2019-07-17 16:48:30 [main] o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
 [WARN ] 2019-07-17 16:48:30 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
 [WARN ] 2019-07-17 16:48:30 [main] o.s.c.a.CommonAnnotationBeanPostProcessor - Destroy method on bean with name 'application' threw an exception
 java.lang.NullPointerException: null
-	at com.course.Application.close(Application.java:19)
+	at com.course.Application.close(com.course.Application.java:19)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -105,12 +105,12 @@ java.lang.NullPointerException: null
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
-	at com.course.Application.main(Application.java:15)
+	at com.course.Application.main(com.course.Application.java:15)
 [WARN ] 2019-07-17 16:51:44 [main] o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
 [WARN ] 2019-07-17 16:51:44 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
 [WARN ] 2019-07-17 16:51:44 [main] o.s.c.a.CommonAnnotationBeanPostProcessor - Destroy method on bean with name 'application' threw an exception
 java.lang.NullPointerException: null
-	at com.course.Application.close(Application.java:19)
+	at com.course.Application.close(com.course.Application.java:19)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -132,12 +132,12 @@ java.lang.NullPointerException: null
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
-	at com.course.Application.main(Application.java:15)
+	at com.course.Application.main(com.course.Application.java:15)
 [WARN ] 2019-07-17 16:52:30 [main] o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
 [WARN ] 2019-07-17 16:52:30 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
 [WARN ] 2019-07-17 16:52:30 [main] o.s.c.a.CommonAnnotationBeanPostProcessor - Destroy method on bean with name 'application' threw an exception
 java.lang.NullPointerException: null
-	at com.course.Application.close(Application.java:19)
+	at com.course.Application.close(com.course.Application.java:19)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -159,12 +159,12 @@ java.lang.NullPointerException: null
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
-	at com.course.Application.main(Application.java:15)
+	at com.course.Application.main(com.course.Application.java:15)
 [WARN ] 2019-07-17 17:03:53 [main] o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
 [WARN ] 2019-07-17 17:03:53 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
 [WARN ] 2019-07-17 17:03:53 [main] o.s.c.a.CommonAnnotationBeanPostProcessor - Destroy method on bean with name 'application' threw an exception
 java.lang.NullPointerException: null
-	at com.course.Application.close(Application.java:19)
+	at com.course.Application.close(com.course.Application.java:19)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -186,12 +186,12 @@ java.lang.NullPointerException: null
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
-	at com.course.Application.main(Application.java:15)
+	at com.course.Application.main(com.course.Application.java:15)
 [WARN ] 2019-07-17 17:16:06 [main] o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
 [WARN ] 2019-07-17 17:16:06 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
 [WARN ] 2019-07-17 17:16:06 [main] o.s.c.a.CommonAnnotationBeanPostProcessor - Destroy method on bean with name 'application' threw an exception
 java.lang.NullPointerException: null
-	at com.course.Application.close(Application.java:19)
+	at com.course.Application.close(com.course.Application.java:19)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -213,12 +213,12 @@ java.lang.NullPointerException: null
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
-	at com.course.Application.main(Application.java:15)
+	at com.course.Application.main(com.course.Application.java:15)
 [WARN ] 2019-07-17 17:25:44 [main] o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
 [WARN ] 2019-07-17 17:25:44 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
 [WARN ] 2019-07-17 17:25:44 [main] o.s.c.a.CommonAnnotationBeanPostProcessor - Destroy method on bean with name 'application' threw an exception
 java.lang.NullPointerException: null
-	at com.course.Application.close(Application.java:19)
+	at com.course.Application.close(com.course.Application.java:19)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -240,12 +240,12 @@ java.lang.NullPointerException: null
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
-	at com.course.Application.main(Application.java:15)
+	at com.course.Application.main(com.course.Application.java:15)
 [WARN ] 2019-07-17 17:28:48 [main] o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
 [WARN ] 2019-07-17 17:28:48 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
 [WARN ] 2019-07-17 17:28:48 [main] o.s.c.a.CommonAnnotationBeanPostProcessor - Destroy method on bean with name 'application' threw an exception
 java.lang.NullPointerException: null
-	at com.course.Application.close(Application.java:19)
+	at com.course.Application.close(com.course.Application.java:19)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -267,12 +267,12 @@ java.lang.NullPointerException: null
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
-	at com.course.Application.main(Application.java:15)
+	at com.course.Application.main(com.course.Application.java:15)
 [WARN ] 2019-07-17 17:30:09 [main] o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
 [WARN ] 2019-07-17 17:30:09 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
 [WARN ] 2019-07-17 17:30:09 [main] o.s.c.a.CommonAnnotationBeanPostProcessor - Destroy method on bean with name 'application' threw an exception
 java.lang.NullPointerException: null
-	at com.course.Application.close(Application.java:19)
+	at com.course.Application.close(com.course.Application.java:19)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -294,12 +294,12 @@ java.lang.NullPointerException: null
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
-	at com.course.Application.main(Application.java:15)
+	at com.course.Application.main(com.course.Application.java:15)
 [WARN ] 2019-07-17 17:31:05 [main] o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
 [WARN ] 2019-07-17 17:31:05 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
 [WARN ] 2019-07-17 17:31:05 [main] o.s.c.a.CommonAnnotationBeanPostProcessor - Destroy method on bean with name 'application' threw an exception
 java.lang.NullPointerException: null
-	at com.course.Application.close(Application.java:19)
+	at com.course.Application.close(com.course.Application.java:19)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -321,12 +321,12 @@ java.lang.NullPointerException: null
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
-	at com.course.Application.main(Application.java:15)
+	at com.course.Application.main(com.course.Application.java:15)
 [WARN ] 2019-07-17 17:31:57 [main] o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
 [WARN ] 2019-07-17 17:31:57 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
 [WARN ] 2019-07-17 17:31:57 [main] o.s.c.a.CommonAnnotationBeanPostProcessor - Destroy method on bean with name 'application' threw an exception
 java.lang.NullPointerException: null
-	at com.course.Application.close(Application.java:19)
+	at com.course.Application.close(com.course.Application.java:19)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -348,12 +348,12 @@ java.lang.NullPointerException: null
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
-	at com.course.Application.main(Application.java:15)
+	at com.course.Application.main(com.course.Application.java:15)
 [WARN ] 2019-07-17 17:32:41 [main] o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
 [WARN ] 2019-07-17 17:32:41 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
 [WARN ] 2019-07-17 17:32:41 [main] o.s.c.a.CommonAnnotationBeanPostProcessor - Destroy method on bean with name 'application' threw an exception
 java.lang.NullPointerException: null
-	at com.course.Application.close(Application.java:19)
+	at com.course.Application.close(com.course.Application.java:19)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -375,11 +375,11 @@ java.lang.NullPointerException: null
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
-	at com.course.Application.main(Application.java:15)
+	at com.course.Application.main(com.course.Application.java:15)
 [WARN ] 2019-07-17 17:38:31 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.mybatis.spring.SqlSessionTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 [WARN ] 2019-07-17 17:38:31 [main] o.s.c.a.CommonAnnotationBeanPostProcessor - Destroy method on bean with name 'application' threw an exception
 java.lang.NullPointerException: null
-	at com.course.Application.close(Application.java:20)
+	at com.course.Application.close(com.course.Application.java:20)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -401,11 +401,11 @@ java.lang.NullPointerException: null
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
-	at com.course.Application.main(Application.java:16)
+	at com.course.Application.main(com.course.Application.java:16)
 [WARN ] 2019-07-17 17:41:47 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.mybatis.spring.SqlSessionTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 [WARN ] 2019-07-17 17:41:47 [main] o.s.c.a.CommonAnnotationBeanPostProcessor - Destroy method on bean with name 'application' threw an exception
 java.lang.NullPointerException: null
-	at com.course.Application.close(Application.java:20)
+	at com.course.Application.close(com.course.Application.java:20)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -427,11 +427,11 @@ java.lang.NullPointerException: null
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
-	at com.course.Application.main(Application.java:16)
+	at com.course.Application.main(com.course.Application.java:16)
 [WARN ] 2019-07-17 17:44:16 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.mybatis.spring.SqlSessionTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 [WARN ] 2019-07-17 17:44:16 [main] o.s.c.a.CommonAnnotationBeanPostProcessor - Destroy method on bean with name 'application' threw an exception
 java.lang.NullPointerException: null
-	at com.course.Application.close(Application.java:20)
+	at com.course.Application.close(com.course.Application.java:20)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -453,11 +453,11 @@ java.lang.NullPointerException: null
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
-	at com.course.Application.main(Application.java:16)
+	at com.course.Application.main(com.course.Application.java:16)
 [WARN ] 2019-07-17 17:44:55 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.mybatis.spring.SqlSessionTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 [WARN ] 2019-07-17 17:44:55 [main] o.s.c.a.CommonAnnotationBeanPostProcessor - Destroy method on bean with name 'application' threw an exception
 java.lang.NullPointerException: null
-	at com.course.Application.close(Application.java:20)
+	at com.course.Application.close(com.course.Application.java:20)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -479,12 +479,12 @@ java.lang.NullPointerException: null
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
-	at com.course.Application.main(Application.java:16)
+	at com.course.Application.main(com.course.Application.java:16)
 [WARN ] 2019-07-17 17:45:31 [main] o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
 [WARN ] 2019-07-17 17:45:31 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
 [WARN ] 2019-07-17 17:45:31 [main] o.s.c.a.CommonAnnotationBeanPostProcessor - Destroy method on bean with name 'application' threw an exception
 java.lang.NullPointerException: null
-	at com.course.Application.close(Application.java:20)
+	at com.course.Application.close(com.course.Application.java:20)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -506,12 +506,12 @@ java.lang.NullPointerException: null
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
-	at com.course.Application.main(Application.java:16)
+	at com.course.Application.main(com.course.Application.java:16)
 [WARN ] 2019-07-17 17:48:36 [main] o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
 [WARN ] 2019-07-17 17:48:36 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
 [WARN ] 2019-07-17 17:48:36 [main] o.s.c.a.CommonAnnotationBeanPostProcessor - Destroy method on bean with name 'application' threw an exception
 java.lang.NullPointerException: null
-	at com.course.Application.close(Application.java:20)
+	at com.course.Application.close(com.course.Application.java:20)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -533,12 +533,12 @@ java.lang.NullPointerException: null
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
-	at com.course.Application.main(Application.java:16)
+	at com.course.Application.main(com.course.Application.java:16)
 [WARN ] 2019-07-17 17:52:40 [main] o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
 [WARN ] 2019-07-17 17:52:40 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
 [WARN ] 2019-07-17 17:52:40 [main] o.s.c.a.CommonAnnotationBeanPostProcessor - Destroy method on bean with name 'application' threw an exception
 java.lang.NullPointerException: null
-	at com.course.Application.close(Application.java:20)
+	at com.course.Application.close(com.course.Application.java:20)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -560,12 +560,12 @@ java.lang.NullPointerException: null
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
-	at com.course.Application.main(Application.java:16)
+	at com.course.Application.main(com.course.Application.java:16)
 [WARN ] 2019-07-17 18:02:22 [main] o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
 [WARN ] 2019-07-17 18:02:22 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'demo': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
 [WARN ] 2019-07-17 18:02:22 [main] o.s.c.a.CommonAnnotationBeanPostProcessor - Destroy method on bean with name 'application' threw an exception
 java.lang.NullPointerException: null
-	at com.course.Application.close(Application.java:20)
+	at com.course.Application.close(com.course.Application.java:20)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -587,4 +587,4 @@ java.lang.NullPointerException: null
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
-	at com.course.Application.main(Application.java:16)
+	at com.course.Application.main(com.course.Application.java:16)

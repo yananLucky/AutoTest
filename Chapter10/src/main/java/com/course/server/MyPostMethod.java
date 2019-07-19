@@ -1,6 +1,6 @@
-package com.course6666.server;
+package com.course.server;
 
-import com.course6666.bean.User;
+import com.course.bean.User;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.*;

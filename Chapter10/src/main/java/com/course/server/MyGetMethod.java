@@ -1,4 +1,4 @@
-package com.course6666.server;
+package com.course.server;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

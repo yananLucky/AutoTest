@@ -4,16 +4,20 @@ server:
   logging:
     path: logs
     file: mylog.log
+    logging.level.com.course.controller: debug
 
-  spring:
-    application:
-      name: myTest
-    datasource:
-      url: jdbc:mysql://192.168.132.32:3306/course
-      username: root
-      password: root
-      driver-class-name: com.mysql.jdbc.Driver
+spring:
+  application:
+      name: course
+  dataSource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/course
+    username: root
+    password: root
+
 mybatis:
-  type-aliases-package: com.course
+  config-location:
+   - mybatis-config.xml
   mapper-locations:
     - mapper/*
+  type-aliases-package: com.course

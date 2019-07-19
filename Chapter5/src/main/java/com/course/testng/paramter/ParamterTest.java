@@ -1,4 +1,4 @@
-package com.course6666.testng.paramter;
+package com.course.testng.paramter;
 
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;

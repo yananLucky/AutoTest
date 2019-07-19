@@ -272,7 +272,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field template in com.course.controller.Demo required a bean of type 'org.mybatis.spring.SqlSessionTemplate' that could not be found.
+Field template in com.course.controller.com.course.Demo required a bean of type 'org.mybatis.spring.SqlSessionTemplate' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -293,7 +293,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field template in com.course.controller.Demo required a bean of type 'org.mybatis.spring.SqlSessionTemplate' that could not be found.
+Field template in com.course.controller.com.course.Demo required a bean of type 'org.mybatis.spring.SqlSessionTemplate' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -314,7 +314,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field template in com.course.controller.Demo required a bean of type 'org.mybatis.spring.SqlSessionTemplate' that could not be found.
+Field template in com.course.controller.com.course.Demo required a bean of type 'org.mybatis.spring.SqlSessionTemplate' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -335,7 +335,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field template in com.course.controller.Demo required a bean of type 'org.mybatis.spring.SqlSessionTemplate' that could not be found.
+Field template in com.course.controller.com.course.Demo required a bean of type 'org.mybatis.spring.SqlSessionTemplate' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)

@@ -8,6 +8,6 @@
         <package name="com.course"/>
     </typeAliases>
     <mappers>
-        <mapper resource="E://workspace//AutoTest//Chapter11//src//main//resources//mapper//mysql.xml"/>
+        <mapper resource="mapper/mysql.xml"/>
     </mappers>
 </configuration>
