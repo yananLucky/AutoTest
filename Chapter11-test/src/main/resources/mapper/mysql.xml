@@ -11,8 +11,12 @@
     </insert>
     <update id="updateUser" parameterType="com.course.model.User">
         update User set name=#{name},age=#{age},sex=#{sex}
-        where id=#{id}
+        where id=#{id};
     </update>
+    <delete id="deleteUser" parameterType="Integer">
+        delete from User where id=#{id}
+
+    </delete>
 
 
 

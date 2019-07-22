@@ -5,10 +5,7 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping(value = "v1")
@@ -34,5 +31,11 @@ public class Demo {
     public int updateUser(@RequestBody User user){
          int result=template.update("updateUser",user);
          return result;
+    }
+
+    @RequestMapping(value = "/deleteUser",method = RequestMethod.GET)
+    public int deleteUser(@RequestParam int id){
+
+         return template.delete("deleteUser",id);
     }
 }
