@@ -3,7 +3,7 @@ package com.course.controller;
 import com.course.model.User;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
-import lombok.extern.log4j.Log4j;
+//import lombok.extern.log4j.Log4j;
 import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletResponse;
 
-@Log4j
+//@Log4j
 @RestController
 @Api(value = "v1",description = "用户管理系统")
 @RequestMapping("v1")
