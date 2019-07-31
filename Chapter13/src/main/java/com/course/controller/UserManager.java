@@ -3,7 +3,8 @@ package com.course.controller;
 import com.course.model.User;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
-//import lombok.extern.log4j.Log4j;
+import lombok.extern.log4j.Log4j;
+import lombok.val;
 import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -13,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletResponse;
 
-//@Log4j
+@Log4j
 @RestController
 @Api(value = "v1",description = "用户管理系统")
 @RequestMapping("v1")
@@ -26,7 +27,8 @@ public class UserManager {
         int i=sqlSessionTemplate.selectOne("login",user);
         Cookie cookie=new Cookie("login","true");
         response.addCookie(cookie);
-       // log.info("登录用户是： "+user.getUserName());
+        //org.apache.log4j.Logger log = UserManager.log;
+        // log.info("登录用户是： "+user.getUserName());
        // log.
         return null;
     }
