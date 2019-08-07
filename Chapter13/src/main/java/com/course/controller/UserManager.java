@@ -28,9 +28,10 @@ public class UserManager {
     @ApiOperation(value = "登录接口",httpMethod = "POST")
     @RequestMapping(value = "/login",method = RequestMethod.POST)
     public Boolean login(HttpServletResponse response, @RequestBody User user){
+        System.out.println("addcookie");
         int i=template.selectOne("login",user);
-        Cookie cookie=new Cookie("login","true");
-        response.addCookie(cookie);
+        //Cookie cookie=new Cookie("login","true");
+        //response.addCookie(cookie);
         //org.apache.log4j.Logger log = UserManager.log;
         // log.info("登录用户是： "+user.getUserName());
         //logger.info("登录用户是："+user.getUserName());
@@ -61,6 +62,7 @@ public class UserManager {
     public List<User> getUserInfo(HttpServletRequest request, @RequestBody User user){
         System.out.println("2222222");
         Boolean x=verifyCookies(request);
+        System.out.println("xxxxx:"+x);
         if (x==true){
             List<User> users=template.selectList("getUserInfo",user);
             System.out.println("111111111111");
@@ -88,9 +90,11 @@ public class UserManager {
         Cookie[] cookies=request.getCookies();
         if(Objects.isNull(cookies)){
             log.info("cookies 为空");
+            System.out.println("cookies 为空");
             return false;
         }
         for(Cookie cookie:cookies){
+            System.out.println(cookie.getName());
             if (cookie.getValue().equals("true"));
             return true;
         }
