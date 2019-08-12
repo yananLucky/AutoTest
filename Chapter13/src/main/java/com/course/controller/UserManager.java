@@ -30,10 +30,10 @@ public class UserManager {
     public Boolean login(HttpServletResponse response, @RequestBody User user){
         System.out.println("addcookie");
         int i=template.selectOne("login",user);
-        //Cookie cookie=new Cookie("login","true");
-        //response.addCookie(cookie);
-        //org.apache.log4j.Logger log = UserManager.log;
-        // log.info("登录用户是： "+user.getUserName());
+        Cookie cookie=new Cookie("login","true");
+        response.addCookie(cookie);
+        org.apache.log4j.Logger log = UserManager.log;
+         log.info("登录用户是： "+user.getUserName());
         //logger.info("登录用户是："+user.getUserName());
         log.info("查询到的结果是："+i);
         if(i==1){
