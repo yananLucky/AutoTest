@@ -9,6 +9,7 @@ com\course\utils\DatabaseUtil.class
 com\course\cases\UpdateUserInfoTest.class
 com\course\config\TestConfig.class
 com\course\cases\GetUserInfoListTest.class
+com\course\cases\Test.class
 com\course\model\GetUserInfoCase.class
 com\course\config\ExtentTestNGIReporterListener$1.class
 com\course\model\UpdateUserInfoCase.class
