@@ -55,6 +55,7 @@ public class LoginTest {
     private String getResult(LoginCase loginCase) throws IOException {
         HttpPost post=new HttpPost(TestConfig.loginUrl);
         JSONObject param =new JSONObject();
+
         param.put("userName",loginCase.getUserName());
         param.put("password",loginCase.getPassword());
         post.setHeader("content-type","application/json");
