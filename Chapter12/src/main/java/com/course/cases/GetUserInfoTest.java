@@ -6,8 +6,11 @@ import com.course.model.GetUserInfoCase;
 import com.course.model.GetUserListCase;
 import com.course.model.User;
 import com.course.utils.DatabaseUtil;
+import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpPost;
+import org.apache.http.client.protocol.HttpClientContext;
 import org.apache.http.entity.StringEntity;
+import org.apache.http.util.EntityUtils;
 import org.apache.ibatis.session.SqlSession;
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -15,7 +18,9 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class GetUserInfoTest {
@@ -33,14 +38,22 @@ public class GetUserInfoTest {
         Assert.assertEquals(jsonArray,resultJson);
     }
 
-    public JSONArray getJsonResult(GetUserInfoCase getUserInfoCase){
+    public JSONArray getJsonResult(GetUserInfoCase getUserInfoCase) throws IOException {
         HttpPost post=new HttpPost(TestConfig.getUserInfoUrl);
         JSONObject param=new JSONObject();
         //JSONObject aa= JSON.parseObject("");
         param.put("id",getUserInfoCase.getUserId());
         post.setHeader("content-type","application/json");
-        StringEntity entity
-        return null;
+        StringEntity entity=new StringEntity(param.toString());
+        post.setEntity(entity);
+        HttpClientContext httpClientContext=HttpClientContext.create();
+        httpClientContext.setCookieStore(TestConfig.store);
+        String result;
+        HttpResponse response=TestConfig.defaultHttpClient.execute(post);
+        result= EntityUtils.toString(response.getEntity(),"utf-8");
+        List resultList= Arrays.asList(result);
+        JSONArray array=new JSONArray(resultList);
+        return array;
 
     }
 

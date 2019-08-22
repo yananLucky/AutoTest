@@ -28,12 +28,12 @@ public class LoginTest {
     @BeforeTest(groups = "loginTrue",description = "测试前准备工作")
     public void beforeTest(){
         TestConfig.defaultHttpClient= HttpClientBuilder.create().build();
-        TestConfig.getUserInfoUrl= ConfigFile.getUrl(InterfaceName.GETUSERINFO);
-        TestConfig.addUserUrl=ConfigFile.getUrl(InterfaceName.ADDUSERINFO);
-        TestConfig.getUserListUrl=ConfigFile.getUrl(InterfaceName.GETUSERLIST);
-        System.out.println("enm:"+TestConfig.loginUrl);
+        //TestConfig.getUserInfoUrl= ConfigFile.getUrl(InterfaceName.GETUSERINFO);
+        //TestConfig.addUserUrl=ConfigFile.getUrl(InterfaceName.ADDUSERINFO);
+        //TestConfig.getUserListUrl=ConfigFile.getUrl(InterfaceName.GETUSERLIST);
+       // System.out.println("enm:"+TestConfig.loginUrl);
         //TestConfig.loginUrl=ConfigFile.getUrl(InterfaceName.LOGIN);
-        TestConfig.updateUserInfoUrl=ConfigFile.getUrl(InterfaceName.UPDATEUSERINFO);
+       // TestConfig.updateUserInfoUrl=ConfigFile.getUrl(InterfaceName.UPDATEUSERINFO);
 
         //
     }

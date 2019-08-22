@@ -17,8 +17,9 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
-@Test(dependsOnGroups = "loginTrue",description = "添加用户接口测试")
+
 public class AddUserTest {
+    @Test(dependsOnGroups = "loginTrue",description = "添加用户接口测试")
     public void addUser() throws IOException {
         SqlSession session= DatabaseUtil.getSqlSession();
         AddUserCase addUserCase=session.selectOne("addUserCase",1);
@@ -54,8 +55,6 @@ public class AddUserTest {
        // TestConfig.httpClient
         HttpClientContext httpClientContext=HttpClientContext.create();
         httpClientContext.setCookieStore(TestConfig.store);
-
-
 
         String result;//存放返回结果
         HttpResponse resonse=TestConfig.defaultHttpClient.execute(post,httpClientContext);
