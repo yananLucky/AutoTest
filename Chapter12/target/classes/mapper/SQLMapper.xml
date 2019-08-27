@@ -31,11 +31,11 @@
     <select id="addUser" parameterType="com.course.model.AddUserCase" resultType="com.course.model.User">
         select * from user where
         userName=#{userName}
-        and password=#{password}
+<!--        and password=#{password}
         and sex=#{sex}
         and age=#{age}
         and permission=#{permission}
-        and isDelete=#{isDelete};
+        and isDelete=#{isDelete}-->;
 
     </select>
     <!--获取用户信息-->

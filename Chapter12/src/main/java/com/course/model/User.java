@@ -10,6 +10,7 @@ public class User {
     private String sex;
     private String permission;
     private String isDelete;
+    private String password;
 
 @Override
     public String toString() {
@@ -18,7 +19,7 @@ public class User {
                   "userName:" + userName + "," +
                   "age:" + age + "," +
                   "sex:" + sex + "," +
-                  "permission:" + permission + "," +
+                  "permission:" + permission + "," +"password:"+
                   "isDelete:" + isDelete + "}"
 
         );

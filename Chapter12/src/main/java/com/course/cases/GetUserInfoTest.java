@@ -1,6 +1,8 @@
 package com.course.cases;
 
+
 import com.alibaba.fastjson.JSON;
+import org.json.JSONObject;
 import com.course.config.TestConfig;
 import com.course.model.GetUserInfoCase;
 import com.course.model.GetUserListCase;
@@ -31,11 +33,31 @@ public class GetUserInfoTest {
         System.out.println("getUserInfo:"+getUserInfoCase.toString());
         System.out.println("getUserInfoUrl:"+ TestConfig.getUserInfoUrl);
         JSONArray resultJson=getJsonResult(getUserInfoCase);
+        System.out.println("resultJson:"+resultJson.get(0));
+        System.out.println("转成jsonobjec："+JSON.toJSON(resultJson.get(0)));
+       // JSONArray array1=JSONArray.fromObject(resultJson.get(0));
+       // JSONArray array=JSON.toJSON(resultJson.get(0));
+        JSONArray actualJsonResult= (JSONArray) resultJson.get(0);
+        System.out.println("actualJsonResult:"+actualJsonResult);
         User user=session.selectOne(getUserInfoCase.getExpected(),getUserInfoCase);
+        System.out.println("userToString:"+user.toString());
         List userList=new ArrayList();
         userList.add(user);
         JSONArray jsonArray=new JSONArray(userList);
-        Assert.assertEquals(jsonArray,resultJson);
+        JSONObject actualJson=jsonArray.getJSONObject(0);
+        JSONObject expectedJson=actualJsonResult.getJSONObject(0);
+        //actualJson.get("userName");
+        //expectedJson.get("userName");
+
+        Assert.assertEquals(actualJson.get("userName"),expectedJson.get("userName"));
+        Assert.assertEquals(actualJson.get("age"),expectedJson.get("age"));
+        Assert.assertEquals(actualJson.get("sex"),expectedJson.get("sex"));
+        Assert.assertEquals(actualJson.get("isDelete"),expectedJson.get("isDelete"));
+        Assert.assertEquals(actualJson.get("permission"),expectedJson.get("permission"));
+        Assert.assertEquals(actualJson.get("id"),expectedJson.get("id"));
+
+
+
     }
 
     public JSONArray getJsonResult(GetUserInfoCase getUserInfoCase) throws IOException {
@@ -53,6 +75,7 @@ public class GetUserInfoTest {
         result= EntityUtils.toString(response.getEntity(),"utf-8");
         List resultList= Arrays.asList(result);
         JSONArray array=new JSONArray(resultList);
+        System.out.println("arrayResult:"+array);
         return array;
 
     }

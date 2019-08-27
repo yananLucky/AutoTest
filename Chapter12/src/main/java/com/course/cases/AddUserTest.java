@@ -23,15 +23,16 @@ public class AddUserTest {
     public void addUser() throws IOException {
         SqlSession session= DatabaseUtil.getSqlSession();
         AddUserCase addUserCase=session.selectOne("addUserCase",1);
-        System.out.println(addUserCase.toString());
+        System.out.println("addUserCase.toString()1:"+addUserCase.toString());
         System.out.println(TestConfig.addUserUrl);
 
         //发送请求，获取结果
         String result=getResult(addUserCase);
 
         //验证返回结果
-        User user=session.selectOne("addUser",addUserCase);
-        System.out.println(user.toString());
+       // User user= session.selectOne("addUser",addUserCase.getUserName());
+        //System.out.println("user.getUserName:"+user.getUserName());
+        System.out.println("addUserCase.getExpected():"+addUserCase.getExpected());
         Assert.assertEquals(addUserCase.getExpected(),result);
 
     }
@@ -59,7 +60,7 @@ public class AddUserTest {
         String result;//存放返回结果
         HttpResponse resonse=TestConfig.defaultHttpClient.execute(post,httpClientContext);
         result= EntityUtils.toString(resonse.getEntity(),"utf-8");
-        System.out.println(result);
+        System.out.println("adduser send response:"+result);
 
 
         return result;
