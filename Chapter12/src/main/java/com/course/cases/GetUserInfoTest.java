@@ -16,6 +16,8 @@ import org.apache.http.util.EntityUtils;
 import org.apache.ibatis.session.SqlSession;
 import org.json.JSONArray;
 import org.json.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -27,28 +29,20 @@ import java.util.List;
 
 public class GetUserInfoTest {
     @Test(dependsOnGroups = "loginTrue",description = "获取userId为1的用户")
-    public void getUserInfo() throws IOException {
+    public void getUserInfo() throws IOException, ParseException {
         SqlSession session= DatabaseUtil.getSqlSession();
         GetUserInfoCase getUserInfoCase=session.selectOne("getUserInfoCase",1);
         System.out.println("getUserInfo:"+getUserInfoCase.toString());
         System.out.println("getUserInfoUrl:"+ TestConfig.getUserInfoUrl);
-        JSONArray resultJson=getJsonResult(getUserInfoCase);
-        System.out.println("resultJson:"+resultJson.get(0));
-        System.out.println("转成jsonobjec："+JSON.toJSON(resultJson.get(0)));
-       // JSONArray array1=JSONArray.fromObject(resultJson.get(0));
-       // JSONArray array=JSON.toJSON(resultJson.get(0));
-        JSONArray actualJsonResult= (JSONArray) resultJson.get(0);
-        System.out.println("actualJsonResult:"+actualJsonResult);
+        String resultJson=getJsonResult(getUserInfoCase);
+        JSONArray array=new JSONArray(resultJson);
+        JSONObject actualJson= (JSONObject) array.get(0);
         User user=session.selectOne(getUserInfoCase.getExpected(),getUserInfoCase);
         System.out.println("userToString:"+user.toString());
         List userList=new ArrayList();
         userList.add(user);
         JSONArray jsonArray=new JSONArray(userList);
-        JSONObject actualJson=jsonArray.getJSONObject(0);
-        JSONObject expectedJson=actualJsonResult.getJSONObject(0);
-        //actualJson.get("userName");
-        //expectedJson.get("userName");
-
+        JSONObject expectedJson=jsonArray.getJSONObject(0);
         Assert.assertEquals(actualJson.get("userName"),expectedJson.get("userName"));
         Assert.assertEquals(actualJson.get("age"),expectedJson.get("age"));
         Assert.assertEquals(actualJson.get("sex"),expectedJson.get("sex"));
@@ -60,7 +54,7 @@ public class GetUserInfoTest {
 
     }
 
-    public JSONArray getJsonResult(GetUserInfoCase getUserInfoCase) throws IOException {
+    public String getJsonResult(GetUserInfoCase getUserInfoCase) throws IOException {
         HttpPost post=new HttpPost(TestConfig.getUserInfoUrl);
         JSONObject param=new JSONObject();
         //JSONObject aa= JSON.parseObject("");
@@ -73,10 +67,8 @@ public class GetUserInfoTest {
         String result;
         HttpResponse response=TestConfig.defaultHttpClient.execute(post);
         result= EntityUtils.toString(response.getEntity(),"utf-8");
-        List resultList= Arrays.asList(result);
-        JSONArray array=new JSONArray(resultList);
-        System.out.println("arrayResult:"+array);
-        return array;
+        System.out.println("getUserInfoResponse:"+result);
+        return result;
 
     }
 

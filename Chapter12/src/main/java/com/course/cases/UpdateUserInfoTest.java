@@ -19,20 +19,22 @@ import java.io.UnsupportedEncodingException;
 
 public class UpdateUserInfoTest {
 
-    @Test(dependsOnGroups = "loginTrue",description = "更新删除用户信息")
-    public void updateUserInfo() throws IOException {
+    @Test(dependsOnGroups = "loginTrue",description = "更新用户信息")
+    public void updateUserInfo() throws IOException, InterruptedException {
         SqlSession session= DatabaseUtil.getSqlSession();
         UpdateUserInfoCase updateUserInfoCase=session.selectOne("updateUserInfoCase",1);
         System.out.println("updateUserInfoCaseSql:"+updateUserInfoCase.toString());
         System.out.println(TestConfig.updateUserInfoUrl);
         int result=getResult(updateUserInfoCase);
+        Thread.sleep(3000);
         User user=session.selectOne(updateUserInfoCase.getExpected(),updateUserInfoCase);
         Assert.assertNotNull(user);
         Assert.assertNotNull(result);
 
 
     }
-    @Test(dependsOnGroups = "loginTrue",description = "删除用户信息")
+/*    @Test(dependsOnGroups = "loginTrue",description = "删除用户信息")
+
     public void deleteUser() throws IOException {
         SqlSession session=DatabaseUtil.getSqlSession();
         UpdateUserInfoCase updateUserInfoCase=session.selectOne("updateUserInfoCase",2);
@@ -44,13 +46,13 @@ public class UpdateUserInfoTest {
         Assert.assertNotNull(user);
         Assert.assertNotNull(result);
 
-    }
+    }*/
 
     public int getResult(UpdateUserInfoCase updateUserInfoCase) throws IOException {
         HttpPost post=new HttpPost(TestConfig.updateUserInfoUrl);
         JSONObject param=new JSONObject();
         param.put("userName",updateUserInfoCase.getUserName());
-        param.put("id",updateUserInfoCase.getId());
+        param.put("id",updateUserInfoCase.getUserId());
         param.put("age",updateUserInfoCase.getAge());
         param.put("sex",updateUserInfoCase.getSex());
         param.put("isDelete",updateUserInfoCase.getIsDelete());
@@ -63,6 +65,7 @@ public class UpdateUserInfoTest {
         HttpResponse response=TestConfig.defaultHttpClient.execute(post,context);
         String result;
         result=EntityUtils.toString(response.getEntity(),"utf-8");
+        System.out.println("updateUserInfoResponse:"+result);
         return Integer.parseInt(result);
 
     }
