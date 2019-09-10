@@ -4,7 +4,7 @@ import lombok.Data;
 
 @Data
 public class GetUserListCase {
-    private String expacted;
+    private String id;
     private String userName;
     private String age;
     private String sex;

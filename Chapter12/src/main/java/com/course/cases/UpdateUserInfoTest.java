@@ -26,27 +26,27 @@ public class UpdateUserInfoTest {
         System.out.println("updateUserInfoCaseSql:"+updateUserInfoCase.toString());
         System.out.println(TestConfig.updateUserInfoUrl);
         int result=getResult(updateUserInfoCase);
-        Thread.sleep(3000);
+       // Thread.sleep(3000);
         User user=session.selectOne(updateUserInfoCase.getExpected(),updateUserInfoCase);
+        //Thread.sleep(3000);
         Assert.assertNotNull(user);
         Assert.assertNotNull(result);
-
-
     }
-/*    @Test(dependsOnGroups = "loginTrue",description = "删除用户信息")
 
-    public void deleteUser() throws IOException {
+    @Test(dependsOnGroups = "loginTrue",description = "删除用户信息")
+    public void deleteUser() throws IOException, InterruptedException {
         SqlSession session=DatabaseUtil.getSqlSession();
         UpdateUserInfoCase updateUserInfoCase=session.selectOne("updateUserInfoCase",2);
 
         System.out.println("updateUserInfoCasesql:"+updateUserInfoCase.toString());
         System.out.println(TestConfig.updateUserInfoUrl);
         int result=getResult(updateUserInfoCase);
+        Thread.sleep(3000);
         User user=session.selectOne(updateUserInfoCase.getExpected(),updateUserInfoCase);
         Assert.assertNotNull(user);
         Assert.assertNotNull(result);
 
-    }*/
+    }
 
     public int getResult(UpdateUserInfoCase updateUserInfoCase) throws IOException {
         HttpPost post=new HttpPost(TestConfig.updateUserInfoUrl);

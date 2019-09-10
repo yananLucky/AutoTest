@@ -34,27 +34,32 @@ public class GetUserInfoTest {
         GetUserInfoCase getUserInfoCase=session.selectOne("getUserInfoCase",1);
         System.out.println("getUserInfo:"+getUserInfoCase.toString());
         System.out.println("getUserInfoUrl:"+ TestConfig.getUserInfoUrl);
-        String resultJson=getJsonResult(getUserInfoCase);
-        JSONArray array=new JSONArray(resultJson);
-        JSONObject actualJson= (JSONObject) array.get(0);
+        JSONArray resultJson=getJsonResult(getUserInfoCase);
+        //JSONArray array=new JSONArray(resultJson);
+        System.out.println("get0:"+resultJson.get(0));
+        JSONArray array=new JSONArray(resultJson.getString(0));
+       // JSONObject actualJson= (JSONObject) resultJson.get(0);
         User user=session.selectOne(getUserInfoCase.getExpected(),getUserInfoCase);
         System.out.println("userToString:"+user.toString());
         List userList=new ArrayList();
         userList.add(user);
         JSONArray jsonArray=new JSONArray(userList);
-        JSONObject expectedJson=jsonArray.getJSONObject(0);
-        Assert.assertEquals(actualJson.get("userName"),expectedJson.get("userName"));
+        //JSONObject expectedJson=jsonArray.getJSONObject(0);
+        System.out.println("arrayActual:"+array);
+        Assert.assertEquals(array.toString(),jsonArray.toString());
+       // Assert.assertEquals((array.get(0)).toString(),expectedJson.toString());
+  /*      Assert.assertEquals(actualJson.get("userName"),expectedJson.get("userName"));
         Assert.assertEquals(actualJson.get("age"),expectedJson.get("age"));
         Assert.assertEquals(actualJson.get("sex"),expectedJson.get("sex"));
         Assert.assertEquals(actualJson.get("isDelete"),expectedJson.get("isDelete"));
         Assert.assertEquals(actualJson.get("permission"),expectedJson.get("permission"));
-        Assert.assertEquals(actualJson.get("id"),expectedJson.get("id"));
+        Assert.assertEquals(actualJson.get("id"),expectedJson.get("id"));*/
 
 
 
     }
 
-    public String getJsonResult(GetUserInfoCase getUserInfoCase) throws IOException {
+    public JSONArray getJsonResult(GetUserInfoCase getUserInfoCase) throws IOException {
         HttpPost post=new HttpPost(TestConfig.getUserInfoUrl);
         JSONObject param=new JSONObject();
         //JSONObject aa= JSON.parseObject("");
@@ -68,7 +73,9 @@ public class GetUserInfoTest {
         HttpResponse response=TestConfig.defaultHttpClient.execute(post);
         result= EntityUtils.toString(response.getEntity(),"utf-8");
         System.out.println("getUserInfoResponse:"+result);
-        return result;
+        List resultList = Arrays.asList(result);
+        JSONArray array = new JSONArray(resultList);
+        return array;
 
     }
 

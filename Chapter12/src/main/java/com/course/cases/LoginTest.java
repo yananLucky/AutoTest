@@ -65,7 +65,7 @@ public class LoginTest {
         String result;
         HttpResponse response=TestConfig.defaultHttpClient.execute(post);
         result= EntityUtils.toString(response.getEntity(),"utf-8");
-        HttpClientContext httpClientContext=HttpClientContext.create();;
+        HttpClientContext httpClientContext=HttpClientContext.create();
         TestConfig.store=httpClientContext.getCookieStore();
         // TestConfig.store=TestConfig.defaultHttpClient.getCookieStore();
         System.out.println("login result:"+result);

@@ -21,16 +21,17 @@ import java.util.List;
 public class GetUserInfoListTest {
 
     @Test(dependsOnGroups="loginTrue",description = "获取")
-    public void getUserListInfo() throws IOException {
+    public void getUserListInfo() throws IOException, InterruptedException {
         SqlSession session= DatabaseUtil.getSqlSession();
         GetUserListCase getUserListCase=session.selectOne("getUserListCase",1);
         System.out.println("获取getUserList库中取出的内容"+getUserListCase.toString());
         System.out.println("getUserListUrl:"+ TestConfig.getUserListUrl);
         //发送请求获取结果
         JSONArray resultJson=getJsongResult(getUserListCase);
-
+        Thread.sleep(3000);
         //验证
-        List<User> userList=session.selectList(getUserListCase.getExpacted(),getUserListCase);
+        List<User> userList=session.selectList(getUserListCase.getExpected(),getUserListCase);
+        Thread.sleep(3000);
         for (User u:userList){
             System.out.println("userListInfo:"+u.toString());
 

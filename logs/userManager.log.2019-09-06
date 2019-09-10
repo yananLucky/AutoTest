@@ -1,0 +1,21 @@
+2019-09-06 10:03:33.325 [main] INFO  com.course.Application - Starting Application on AM-201509231532 with PID 12656 (E:\workspace\AutoTest\Chapter13\target\classes started by Administrator in E:\workspace\AutoTest)
+2019-09-06 10:03:33.330 [main] INFO  com.course.Application - No active profile set, falling back to default profiles: default
+2019-09-06 10:03:34.742 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2019-09-06 10:03:35.214 [main] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$16c0afd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-06 10:03:35.809 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-09-06 10:03:35.853 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-09-06 10:03:35.853 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-09-06 10:03:36.061 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-06 10:03:36.061 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2657 ms
+2019-09-06 10:03:37.285 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-06 10:03:37.525 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2019-09-06 10:03:37.598 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-09-06 10:03:37.628 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-09-06 10:03:37.646 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-09-06 10:03:38.072 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-09-06 10:03:38.076 [main] INFO  com.course.Application - Started Application in 5.837 seconds (JVM running for 6.852)
+2019-09-06 10:03:51.380 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-06 10:03:51.380 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-09-06 10:03:51.389 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2019-09-06 10:03:51.519 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-09-06 10:03:51.813 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
